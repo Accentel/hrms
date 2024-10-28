@@ -807,31 +807,31 @@ $t = strtotime($uniformisdate);
 
 															<table class="table table-hover table-striped">
 																<center style="color:#192436"><u><b>
-																			<h1>Nominee Details</h1>
+																			<h1> Nominee Details</h1>
 																		</b></u></center>
 																<br />
 																<tr>
 
-																	<td align="right">Name</td>
+																	<td align="right"> Name</td>
 																	<td>
 																		<input type="text" name="nname" id="nname" class="form-control" placeholder="Enter Nominee Name">
 																	</td>
                                                                     </tr>
 
 																	<tr>
-																	<td align="right">Relationship</td>
+																	<td align="right"> Relationship</td>
 																	<td>
 																		<input type="text" name="nrelation" id="nrelation" class="form-control" placeholder="Enter Relationship">
 																	</td>
                                                                     </tr>
                 <tr>
-																	<td align="right">Address</td>
+																	<td align="right"> Address</td>
 																	<td>
 																		<input type="text" name="naddress" id="naddress" class="form-control" placeholder="Enter Nominee Address">
 																	</td>
                                                                     </tr>
                                                                  <tr>
-																	<td align="right">Nominee DOB</td>
+																	<td align="right"> Nominee DOB</td>
 																	<td>
 																		<input type="date" value="<?php echo date('Y-m-d'); ?>" name="ndob" id="ndob" class="form-control">
 																	</td>
@@ -840,7 +840,7 @@ $t = strtotime($uniformisdate);
 
 
 																	<tr>
-																	<td align="right">Amount</td>
+																	<td align="right"> Amount</td>
 																	<td>
 																		<input type="text" name="namount" id="namount" class="form-control" placeholder="Enter Amount">
 																	</td>
@@ -873,7 +873,7 @@ $t = strtotime($uniformisdate);
 
 															<table class="table table-hover table-striped">
 																<center style="color:#192436"><u><b>
-																			<h1>BANK DETAILS</h1>
+																			<h1> BANK DETAILS</h1>
 																		</b></u></center>
 																<br />
 																<tr>
