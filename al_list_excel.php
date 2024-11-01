@@ -1,3 +1,4 @@
+
 <?php 
 include_once('config.php'); 
 $state=$_GET['state'];
@@ -80,9 +81,9 @@ $i++;
 $objWriter	=	new PHPExcel_Writer_Excel2007($objPHPExcel);
 
 
-header('Content-Type: application/vnd.ms-excel'); //mime type
+header('Content-Type: application/vnd.ms-excel'); //mime type 
 header('Content-Disposition: attachment;filename="'.$state.'-appointment_list.xlsx"'); //tell browser what's the file name
 header('Cache-Control: max-age=0'); //no cache
 $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');  
 $objWriter->save('php://output');
-?>
+?> 

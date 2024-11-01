@@ -1,3 +1,4 @@
+
 <?php //include('config.php');
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -550,25 +551,25 @@ $a = "select `count` as cnt from qutcount where state='AP' ";
 														</td>
 													</tr>
 													<tr>
-														<td align="right">UAN No.</td>
+														<td align="right"> UAN No.</td>
 														<td align="left">
 															<input type="text"  name="uan" id="uan" class="form-control">
 														</td>
                                                         </tr>
                 <tr>
-														<td align="right">PF No.</td>
+														<td align="right"> PF No.</td>
 														<td>
 															<input type="text"  name="pf" id="pf" class="form-control">
 														</td>
 													</tr>
 													<tr>
-														<td align="right">ESI No.</td>
+														<td align="right"> ESI No.</td>
 														<td align="left">
 															<input type="text"  name="esi" id="esi" class="form-control">
 														</td>
                                                         </tr>
                               	 <tr>
-														<td align="right">DOJ</td>
+														<td align="right"> DOJ</td>
 														<td align="left">
 															<input type="date" value=" <?php
 $t = strtotime($doj);
@@ -577,7 +578,7 @@ $t = strtotime($doj);
 														</td>
 													</tr>
 													<tr>
-														<td align="right">Qualification</td>
+														<td align="right"> Qualification</td>
 														<td align="left">
 															<input type="text"  name="qua" id="qua" class="form-control">
 														</td>
@@ -595,20 +596,20 @@ $t = strtotime($doj);
 														</td>
                                                         </tr>
                 									<tr>
-														<td align="right">Photo</td>
+														<td align="right"> Photo</td>
 														<td align="left">
 															<input type="file" name="empimg" id="empimg" class="form-control photo-upload" accept=".jpg, .jpeg, .png" />
 														</td>
 													</tr>
 													<tr>
-														<td align="right">Address</td>
+														<td align="right"> Address</td>
 														<td align="left">
 
 															<textarea  name="address" id="address" class="form-control"></textarea>
 														</td>
                                                         </tr>
                 <tr>
-														<td align="right">City</td>
+														<td align="right"> City</td>
 														<td align="left">
 															<input type="text" value="" class="form-control" name="city" id="city">
 														</td>

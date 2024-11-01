@@ -80,15 +80,15 @@ function report()
                         <ul class="breadcrumb">
                             <li>
                                 <i class="ace-icon fa fa-home home-icon"></i>
-                                <a href="dashboard.php">Home</a>
+                                <a href="dashboard.php"> Home</a>
                             </li>
 								<li>
                                 <i class="ace-icon fa fa-cog home-icon"></i>
-                                <a href="dashboard.php">Settings</a>
+                                <a href="dashboard.php"> Settings</a>
                             </li>
                             <li>
                     <i class="ace-icon fa fa-users home-icon"></i>
-                                <a href="adduseramount.php">Add User Amount</a>
+                                <a href="adduseramount.php"> Add User Amount</a>
                             </li>
                             <!--<li class="active">Blank Page</li>-->
                         </ul><!-- /.breadcrumb -->
