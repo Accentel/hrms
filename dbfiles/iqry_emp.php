@@ -158,8 +158,7 @@ $res = mysqli_query($link, $x) or die("could not connected" . mysqli_error($link
                 $res2 = mysqli_query($link, $x2) or die("could not connected" . mysqli_error($link));
             }
 
-            // $sql = "update bedtype set BEDTYPE='$bname',AUTH_BY='$user',REMARKS='$remarks' where BEDTYPE_ID='$id'";
-            // $res = mysqli_query($link, $sql) or die("could not connected" . mysqli_error());
+             
         }
 
         $signatureData = $_POST['signatureData'];
