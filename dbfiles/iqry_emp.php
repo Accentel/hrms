@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
     // echo "Form is submitted!";
     // var_dump($_POST); // This will display all the submitted data
     // $photoFullPath = "http://jtechnoassociates.in/hrms/";
-    $photoFullPath = "http://localhost/hrms/";
+    $photoFullPath = "http://localhost/hrms/"; 
     //reading form data
     $empid=trim($_POST['empid']);
     $emp_name = trim($_POST['empname']);
@@ -102,7 +102,7 @@ if (isset($_POST['submit'])) {
     // $ssize = trim($_POST['ssize']);
 
     // $idcard = trim($_POST['idcard']);
-    // $idcarddt = trim($_POST['idcarddt']);
+ 
 
     $user = trim($_POST['user']);
     $employeeid = 'JT' . '$state';
@@ -111,10 +111,7 @@ if (isset($_POST['submit'])) {
     $result = mysqli_query($link, $query) or die(mysqli_error($link));
     if (mysqli_num_rows($result) == 0) {
 
-//          $x = "insert into emp(emp_name,DOB,gender,maritalstatus,contactno,alternateno,adharcardno,address,city,state,qualification,experience,
-//  DOJ,designation,uan,pan,ESI_NO,PFNO,photo,emp_email,username,password,user,bname,branch,ifsc,accno,level1,level2,level3,level4,level5,level6,level7,childname,fname,mname,wname,relation,tshirt,tshtdt,tsize,phant,phtdt,psize,sshoes,shoesdt,ssize,idcard,idcarddt,stat,licensestatus,sitename,esic_number,uniform,ushirt,shirtsize,upant,pantsize,ushoe,uniformisdate,empsign,permaddress,localaddress,refeaddress)
-//  values('$emp_name','$dob','$gender','$maritalstatus','$contactno','$alternateno','$adharcardno','$address','$city','$state','$qualification','$experience',
-//  '$DOJ','$designation','$UANNO','$PANNO','$ESI_NO','$PFNO','$fileName15','$emp_email','$username','$adharcardno','$user','$bname','$branch','$ifsc','$accno','$level1','$level2','$level3','$level4','$level5','$level6','$level7','$childname','$fname','$mname','$wname','$relation','$tshirt','$tshtdt','$tsize','$phant','$phtdt','$psize','$sshoes','$shoesdt','$ssize','$idcard','$idcarddt','UNBLOCKED','$licensestatus','$sitename','$esic_number','$uniform','$ushirt','$shirtsize','$upant','$pantsize','$ushoe','$shoesize','$uniformisdate','$empsign','$permaddress','$localaddress','$refeaddress')";
+
 
  $x = "insert into emps(emp_name,DOB,gender,maritalstatus,contactno,alternateno,adharcardno,address,city,state,qualification,experience,
 DOJ,designation,uan,pan,ESI_NO,PFNO,photo,emp_email,username,password,user,bname,branch,ifsc,accno,childname,fname,mname,wname,relation,stat,licensestatus,ushirt,shirtsize,upant,pantsize,ushoe,shoesize,sitename,esic_number,uniformisdate,pfscheme,pensionscheme,empsign,permaddress,localaddress,refeaddress,nname,nrelation,naddress,ndob,namount)
