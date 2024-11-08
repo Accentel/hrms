@@ -147,14 +147,14 @@ document.querySelectorAll('.photo-upload').forEach(function(input) {
                         <ul class="breadcrumb">
                             <li>
                                 <i class="ace-icon fa fa-home home-icon"></i>
-                                <a href="#">Home</a>
+                                <a href="#"> Home</a>
                             </li>
                             <li>
                                 <i class="ace-icon fa fa-cog home-icon"></i>
-                                <a href="#">Settings</a>
+                                <a href="#"> Settings</a>
                             </li>
                             <li>
-                                <a href="#">Edit Employee Details</a>
+                                <a href="#"> Edit Employee Details</a>
                             </li>
                             <!--<li class="active">Blank Page</li>-->
                         </ul><!-- /.breadcrumb -->
@@ -166,7 +166,7 @@ document.querySelectorAll('.photo-upload').forEach(function(input) {
                         <!-- /.ace-settings-container -->
                         <div class="#">
                             <center style="color:#192436"><u><b>
-                                        <h1>EDIT EMPLOYEE</h1>
+                                        <h1> EDIT EMPLOYEE</h1>
                                     </b></u></center>
                         </div>
                         <div class="row">
@@ -189,27 +189,27 @@ document.querySelectorAll('.photo-upload').forEach(function(input) {
                                         <input type="hidden" name="ses" value="<?php echo $name; ?>">
                                         <table class="table table-striped table-bordered table-hover">
                                             <tr>
-                                                <td align="right">State:</td>
+                                                <td align="right"> State:</td>
                                                 <td><input type="text" readonly value="<?php echo $rw['state'] ?>"  name="state" id="state" class="form-control"></td>
                 </tr>
                 <tr>
-                                                <td align="right">epD</td>
+                                                <td align="right"> epD</td>
                                                 <td><input type="text" readonly value="<?php echo $rw['employeeid'] ?>"  name="eid" id="eid" class="form-control"></td>
                                             </tr>
                                             <tr>
-                                                <td align="right">ESIC Number</td>
+                                                <td align="right"> ESIC Number</td>
                                                 <td><input type="text" readonly value="<?php echo $rw['esic_number'] ?>"  name="esic_number" id="esic_number" class="form-control"></td>
                 </tr>
                                             <tr>
-                                                <td align="right">Name of Employee </td>
+                                                <td align="right"> Name of Employee </td>
                                                 <td><input type="text" class="form-control" value="<?php echo $rw['emp_name'] ?>"  name="empname" id="empname"></td>
                                                 </tr>
                 <tr>
-                                                <td align="right">DOB</td>
+                                                <td align="right"> DOB</td>
                                                 <td><input type="date" value="<?php echo date('Y-m-d', strtotime($rw["DOB"])) ?>"  name="dob" id="dob" class="form-control"></td>
                                             </tr>
                                             <tr>
-                                                <td align="right">Gender</td>
+                                                <td align="right"> Gender</td>
                                                 <td align="left">
 
 
