@@ -1,4 +1,5 @@
 
+
 <?php //include('config.php');
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -341,14 +342,14 @@ if ($_SESSION['user']) {
 						<ul class="breadcrumb">
 							<li>
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">Home</a>
+								<a href="#">Home </a>
 							</li>
 							<li>
 								<i class="ace-icon fa fa-cog home-icon"></i>
 								<!-- <a href="qot_list"> Settings</a> -->
 							</li>
 							<li>
-								<a href=""> Add Employee</a>
+								<a href=""> Add Employees </a>
 							</li>
 
 							<!--<li class="active">Blank Page</li>-->
