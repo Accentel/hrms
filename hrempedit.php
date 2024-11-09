@@ -98,14 +98,14 @@ if ($_SESSION['user']) {
                         <ul class="breadcrumb">
                             <li>
                                 <i class="ace-icon fa fa-home home-icon"></i>
-                                <a href="#">Home</a>
+                                <a href="#"> Home</a>
                             </li>
                             <li>
                                 <i class="ace-icon fa fa-cog home-icon"></i>
-                                <a href="#">Settings</a>
+                                <a href="#"> Settings</a>
                             </li>
                             <li>
-                                <a href="#">Edit Employee Details</a>
+                                <a href="#"> Edit Employees Details</a>
                             </li>
                             <!--<li class="active">Blank Page</li>-->
                         </ul><!-- /.breadcrumb -->
@@ -117,7 +117,7 @@ if ($_SESSION['user']) {
                         <!-- /.ace-settings-container -->
                         <div class="#">
                             <center style="color:#192436"><u><b>
-                                        <h1>EDIT EMPLOYEE</h1>
+                                        <h1>EDIT EMPLOYEES</h1>
                                     </b></u></center>
                         </div>
                         <div class="row">
@@ -154,24 +154,24 @@ $state=$rw['state'];
                 </tr>
 
                                             <tr>
-                                                <td align="right">ESIC Number</td>
+                                                <td align="right">ESIC Number:</td>
                                                 <td><input type="text" readonly  value="<?php echo $rw['esic_number'] ?>"  name="esic_number" id="esic_number" class="form-control"></td>
                                         </tr>
 
                 <tr>
-                                                <td align="right">Employee ID</td>
+                                                <td align="right">Employee ID:</td>
                                                 <td><input type="text" readonly value="<?php echo $rw['employeeid'] ?>"  name="eid" id="eid" class="form-control"></td>
                                             </tr>
                                             <tr>
-                                                <td align="right">Name of Employee </td>
+                                                <td align="right">Name of Employee: </td>
                                                 <td><input type="text" class="form-control" value="<?php echo $rw['emp_name'] ?>"  name="empname" id="empname"></td>
                                                 </tr>
                 <tr>
-                                                <td align="right">DOB</td>
+                                                <td align="right">DOB:</td>
                                                 <td><input type="date" value="<?php echo date('Y-m-d', strtotime($rw["DOB"])) ?>"  name="dob" id="dob" class="form-control"></td>
                                             </tr>
                                             <tr>
-                                                <td align="right">Gender</td>
+                                                <td align="right">Gender:</td>
                                                 <td align="left">
 
 
