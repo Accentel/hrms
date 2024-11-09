@@ -1,5 +1,5 @@
 <?php
-
+// Developed by Accentel
 // ini_set('display_errors', 1);
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
 	$photoFullPath = "http://localhost/hrms/";
 
         $employeeid = trim($_POST['eid']);
-    $emp_name = trim($_POST['empname']);
+    $emp_name = trim($_POST['empname']); 
    
     $DOB= trim($_POST['dob']);
     $fname= trim($_POST['fname']);
