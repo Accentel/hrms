@@ -84,10 +84,10 @@ $ed=$_POST['id'];
    
 
 }else{
-	$id=$_GET['id'];
-	$rs=mysqli_query($link,"select * from employee where eid='$id'") or die(mysqli_error($link));
-	$row=mysqli_fetch_array($rs);
-	$empcd=$row['empid'];
+$id=$_GET['id'];
+$rs=mysqli_query($link,"select * from employee where eid='$id'") or die(mysqli_error($link));
+$row=mysqli_fetch_array($rs);
+$empcd=$row['empid'];
 $empnm=$row['empname'];
 $empgen=$row['gender'];
 $empdob1=$row['dob'];

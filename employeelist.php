@@ -1,3 +1,4 @@
+<!-- developed by accentel -->
 <?php //include('config.php');
 session_start();
 include('dbconnection/connection.php');
@@ -162,8 +163,8 @@ if ($_SESSION['user']) {
                                             <th>Contact No</th>
                                             <th class="hidden-480">User Name</th>
                                             <!-- <th class="hidden-480">Password</th> -->
-                                            <th class="hidden-480">Action</th>
-                                            <th class="hidden-480">Download</th>
+                                            <th class="hidden-480">Actions</th>
+                                            <th class="hidden-480">Downloads</th>
                                             <th class="hidden-480">Form Q</th>
                                             <th class="hidden-480">Form2</th>
                                             <th class="hidden-480">Document</th>
